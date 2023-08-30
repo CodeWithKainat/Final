@@ -6,7 +6,6 @@ import {
   getSingleProductController,
   productCategoryController,
   productCountController,
-  productFiltersController,
   productListController,
   productPhotoController,
   realtedProductController,
