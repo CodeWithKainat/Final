@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./page/HomePage";
+import React from "react";
 import About from "./page/About";
 import Contact from "./page/Contact";
 import Policy from "./page/Policy";
@@ -47,7 +48,6 @@ function App() {
           <Route path="admin/create-product" element={<CreateProduct />} />
           <Route path="admin/product/:slug" element={<UpdateProduct />} />
           <Route path="admin/products" element={<Products />} />
-          
         </Route>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
