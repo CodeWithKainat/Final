@@ -1,0 +1,84 @@
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 {
+  margin-top: 30px;
+  color: rgb(25, 24, 24);
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 260px;
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 250px !important;
+}
+/* ==================
+  filters
+  ============== */
+
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+.banner {
+  height: 550px;
+  width: 100%;
+  padding: 0;
+}
+@media screen and (max-width: 800px) {
+  .banner {
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner {
+    height: 260px !important;
+  }
+}
+
+.navbar-collapse {
+  margin-left: 14px !important;
+}
+@media screen and (max-width: 285px) {
+  /* .banner {
+    height: 260px !important;
+  } */
+  .home-page .card {
+    width: 200px;
+  }
+}
